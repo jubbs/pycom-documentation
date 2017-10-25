@@ -115,3 +115,6 @@ Download done.
 state(2) = dfuIDLE, status(0) = No error condition is present
 Done!
 ```
+
+If you get "dfu-util: No DFU capable USB device available" under Ubuntu try elevating your privileges with sudo. 
+$ sudo dfu-util -D firmware_file.dfu
